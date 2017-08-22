@@ -9,7 +9,7 @@
 //     'Content-Type': 'text/html'
 // });
 // var options = {method: 'GET', mode: 'no-corse', headers: header};
-fetch('https://marsweather.ingenology.com/v1/archive/?format=json').then(function(response) {
+fetch('http://marsweather.ingenology.com/v1/archive/?format=json').then(function(response) {
   return response.json();
 }).then(function(returnedValue) {
   console.log(returnedValue);
